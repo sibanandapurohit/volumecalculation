@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volume Calculation</title>
+
+
+</head>
+
+<body>
+  <h1 style="color: brown;">Volume Calculation</h1>
+
+  <table cellspacing="5">
+    <tr>
+      <td><label for="name">Value of Middle Girth (in meters):</label></td>
+      <td>
+        <input type="number" id="Gred">
+      </td>
+    </tr>
+    <tr>
+      <td><label for="number">Value of Length (in meters):</label></td>
+      <td><input type="number" id="Length"></td>
+    </tr>
+  </table>
+
+  <br>
+
+  <div>
+    <button onclick="myFunction()"> Calculate </button>
+    <button onclick="myFunction2()"> Reset </button>
+
+  </div>
+
+  <br>
+  <h1>Value in Cubic meters:</h1>
+  <h3 style="color: green;">
+    <p id="answerRate"></p>
+  </h3>
+  <h1>Value in Cubic feets:</h1>
+  <h3 style="color: green;">
+    <p id="answerRate1"></p>
+  </h3>
+
+  <script src="calculation.js"></script>
+</body>
+
+</html>
